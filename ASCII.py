@@ -34,7 +34,7 @@ def image_to_ascii(image):
   return ascii_image
 
 # Test the function
-ascii_text = image_to_ascii("Input.png")
+ascii_text = image_to_ascii("Sample Image.png")
 
 # Save the ASCII text to a file
 with open("ascii_image.txt", "w") as f:
