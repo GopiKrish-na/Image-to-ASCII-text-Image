@@ -8,7 +8,7 @@ def image_to_ascii(image):
   width, height = img.size
 
   # Create a list of ASCII characters
-  ascii_chars = [ '#', ',', ':', '*', '<', '+', 'S', '%', '@', 'A', ' ']
+  ascii_chars = [ '#', ',', ':', '*', '<', '+', 'S', '%', '@', 'A', '.']
 
   # Calculate pixel step size
   step_size = 256 / len(ascii_chars)
